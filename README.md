@@ -1,19 +1,19 @@
-# prometheus-x509-certificate-exporter
+# git-sv
 
-![AUR version](https://img.shields.io/aur/version/prometheus-x509-certificate-exporter?label=AUR)
-![AUR votes](https://img.shields.io/aur/votes/prometheus-x509-certificate-exporter)
+![AUR version](https://img.shields.io/aur/version/git-sv?label=AUR)
+![AUR votes](https://img.shields.io/aur/votes/git-sv)
 
-This repository contains build files to build the Arch Linux package `prometheus-x509-certificate-exporter`. Instead of
-building the package yourself, it can also be obtained from the following private repository. More detailed are
-described [here](#obtaining-pre-built-packages-from-a-repository).
+This repository contains build files to build the Arch Linux package `git-sv`. Instead of building the package yourself,
+it can also be obtained from the following private repository. More detailed are described
+[here](#obtaining-pre-built-packages-from-a-repository).
 
 ## Build
 
 Clone this repository and use `makepkg` to build the package by yourself. For example:
 
 ```bash
-git clone https://aur.archlinux.org/prometheus-x509-certificate-exporter.git
-cd prometheus-x509-certificate-exporter
+git clone https://aur.archlinux.org/git-sv.git
+cd git-sv
 makepkg
 ```
 
@@ -22,7 +22,7 @@ makepkg
 The build files are also available via AUR and can be installed via an AUR helper like `yay`.
 
 ```bash
-yay --sync --aur prometheus-x509-certificate-exporter
+yay --sync --aur git-sv
 ```
 
 ## Obtaining pre-built packages from a repository
@@ -57,5 +57,5 @@ sudo echo "Include = /etc/pacman.d/repos/*.conf" >> /etc/pacman.conf
 sudo pacman --sync --refresh
 
 # Install the package and receive updates directly via pacman :)
-sudo pacman --sync prometheus-x509-certificate-exporter
+sudo pacman --sync git-sv
 ```
