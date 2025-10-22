@@ -1,7 +1,7 @@
 # Maintainer: Markus Pesch <markus.pesch plus apps at cryptic.systems>
 
 pkgname=git-sv
-pkgver=2.0.1 # renovate: datasource=github-releases depName=thegeeklab/git-sv extractVersion='^v?(?<version>.*)$'
+pkgver=2.0.2 # renovate: datasource=github-releases depName=thegeeklab/git-sv extractVersion='^v?(?<version>.*)$'
 pkgrel=1
 pkgdesc="Semantic versioning tool for git based on conventional commits "
 arch=('armv7h' 'aarch64' 'x86_64')
@@ -12,8 +12,8 @@ makedepends=('go')
 source=(
   "$url/archive/refs/tags/v$pkgver.zip"
 )
-sha512sums=('e9fff2eeb7d7dae04dc9053f72a5a5a6d685922ef91496e43032ccf4ef910b71f93ddf01f4a08a661ad105c582eeac51cd47da85a1d70401ad524179f1bf1826')
-b2sums=('76d2a0999f57df7b19109674ae5789aca1fec4b6b4a28c414cc2a438639def47f4174d53d78dd426b712d2521a1425757ce95270edb3b2dcdea3d08522105a7b')
+sha512sums=('2bb40ff8f4ccaded79daa0406ad84a85e75b5a36bf42b5220b7bcbbf990224ff8c7c8927766acda32572f249dedb6d0cac34850853451a8f063d7039a28a33e4')
+b2sums=('7633f33ef6f266e93426e212750f178108ea3925162efc7a8758ce816467ff9d0e477a37db6fcccb5360f53e93f086bd23230c42ac0e36cfcd86f7fc1e4d97d3')
 
 build() {
   make --directory "$pkgname-$pkgver" build
