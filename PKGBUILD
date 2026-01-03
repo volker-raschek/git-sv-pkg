@@ -1,7 +1,7 @@
 # Maintainer: Markus Pesch <markus.pesch plus apps at cryptic.systems>
 
 pkgname=git-sv
-pkgver=2.0.8 # renovate: datasource=github-releases depName=thegeeklab/git-sv extractVersion='^v?(?<version>.*)$'
+pkgver=2.0.9 # renovate: datasource=github-releases depName=thegeeklab/git-sv extractVersion='^v?(?<version>.*)$'
 pkgrel=1
 pkgdesc="Semantic versioning tool for git based on conventional commits "
 arch=('armv7h' 'aarch64' 'x86_64')
